@@ -64,7 +64,7 @@ function runSearch() {
                     updateEmployeeRoles();
                     break;
 
-                case "exit":
+                case "Exit":
                     connection.end();
                     console.log("Thank You For Using Employee Tracker!");
                     break;
