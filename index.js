@@ -38,7 +38,7 @@ function runSearch() {
       .then(function(answer) {
         switch (answer.action) {
         case "View Departments?":
-          viewDepartment();
+          viewDepartments();
           break;
   
         case "View Roles":
@@ -71,4 +71,8 @@ function runSearch() {
           break;
         }
       });
+  }
+
+  function viewDepartments(){
+      
   }
